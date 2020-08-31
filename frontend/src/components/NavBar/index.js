@@ -1,9 +1,14 @@
 import React from 'react';
 
+import logo from '../../static/logo.svg';
+
 const NavBar = () => {
   return (
     <nav className="navbar navbar-expand-lg navbar-light bg-light">
-  <a className="navbar-brand" href="#">Navbar</a>
+  <a className="navbar-brand" href="#">
+    <img style={{maxHeight: '65px'}} src={logo} alt="app logo"/>
+    <span style={{fontWeight: 'bold'}}>Scrum Manager</span>
+  </a>
   <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span className="navbar-toggler-icon"></span>
   </button>
