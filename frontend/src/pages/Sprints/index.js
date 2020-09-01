@@ -3,7 +3,7 @@ import React from 'react';
 const Releases = () => {
   return (
     <>
-      <h1>Releases</h1>
+      <h1>Sprints</h1>
     </>
   );
 }

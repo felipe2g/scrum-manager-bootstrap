@@ -1,6 +1,5 @@
 import React from 'react';
 
-import NavBar from '../../components/NavBar';
 import HomeCard from '../../components/HomeCard';
 
 import releaseLogo from '../../static/releaseLogo.svg';
@@ -31,7 +30,6 @@ const Dashboard = () => {
 
     return (
       <>
-        <NavBar />
         <div className="card-group text-center container">
           <HomeCard {...homeCardReleases} />
           <HomeCard {...homeCardBacklog} />
